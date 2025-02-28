@@ -469,7 +469,39 @@
             </li>
           </ul>
         </div>
+        <form name="subscribtion" class="subscribe">
+          <!-- <p class="footer-socials"></p> -->
+
+          <label for="subscribe" name="subscribe" class="subscribe-text"
+            >Subscribe</label
+          >
+          <div class="subscribtion-container">
+            <input
+              type="email"
+              name="subscribe"
+              id="subscribe"
+              class="subscribe-field"
+              placeholder="E-mail"
+            />
+            <button type="submit" class="subscribe-button">
+              Subscribe
+              <svg class="button-img-plane" width="24" height="24">
+                <use href="./images/icons.svg#icon-plane"></use>
+              </svg>
+            </button>
+          </div>
+        </form>
       </div>
     </footer>
+    <div class="backdrop is-open">
+      <div class="modal">
+        <button type="button" class="cross-button">
+          <svg class="cross-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black"></use>
+          </svg>
+        </button>
+        <p class="modal-text">Leave your contacts and we will call you back</p>
+      </div>
+    </div>
   </body>
 </html>
