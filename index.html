@@ -501,6 +501,85 @@
           </svg>
         </button>
         <p class="modal-text">Leave your contacts and we will call you back</p>
+        <form class="modal-form">
+          <div class="modal-block modal-block-user">
+            <label for="user" class="modal-label">Name</label>
+            <div class="modal-icon-adjastment">
+              <input
+                name="user"
+                type="text"
+                id="user"
+                class="modal-input"
+                pattern="[a-zA-Z ]+"
+                placeholder=""
+                required
+              />
+              <svg class="modal-input-icon" width="18" height="18">
+                <use href="./images/icons.svg#icon-person-black"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-block">
+            <label for="tel" class="modal-label">Phone</label>
+            <div class="modal-icon-adjastment">
+              <input
+                name="phone"
+                type="tel"
+                id="tel"
+                class="modal-input"
+                placeholder=""
+                pattern="[1-9 ]+"
+                required
+              />
+              <svg class="modal-input-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-phone-black"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-block">
+            <label for="email" class="modal-label">Email</label>
+            <div class="modal-icon-adjastment">
+              <input
+                name="email"
+                type="email"
+                id="email"
+                class="modal-input"
+                placeholder=""
+                pattern="[a-zA-Z1-9-_@]"
+                required
+              />
+              <svg class="modal-input-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-email-black"></use>
+              </svg>
+            </div>
+            <div class="modal-block modal-block-text">
+              <label name="comment" for="comment" class="modal-label"
+                >Comment</label
+              ><textarea
+                name="comment"
+                id="comment"
+                class="modal-comment"
+                placeholder="Text input"
+              ></textarea>
+            </div>
+            <div class="modal-form-checkbox">
+              <input
+                type="checkbox"
+                class="checkbox visually-hidden"
+                id="user-checkbox"
+              />
+              <label for="user-checkbox" class="label-checkbox"
+                ><span class="custom-checkbox"
+                  ><svg class="" width="10" height="8">
+                    <use href="./images/icons.svg#icon-check"></use>
+                  </svg> </span
+                >I accept the terms and conditions of the
+                <a href="" class="policy-link">Privacy Policy</a></label
+              >
+            </div>
+            <button class="hero-button modal-button" type="submit">Send</button>
+          </div>
+        </form>
       </div>
     </div>
   </body>
