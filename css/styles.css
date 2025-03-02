@@ -503,6 +503,7 @@ img {
   min-width: 165px;
   height: 40px;
   border: transparent;
+  border: none;
   font-family: 'Roboto', sans-serif;
   cursor: pointer;
   font-weight: 500;
@@ -510,12 +511,11 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   text-align: center;
-  color: #fff;
+  color: #ffffff;
   fill: #fff;
 }
 .button-img-plane {
-  padding: 0;
-  margin: 0;
+  margin-left: 16px;
 }
 .subscribe-button:hover,
 .subscribe-button:focus {
