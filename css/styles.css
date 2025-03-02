@@ -478,7 +478,7 @@ img {
 }
 .subscribe-field {
   background-color: transparent;
-  border: 1px solid #fff;
+  border: 1px solid #ffffff;
   border-radius: 4px;
   width: 264px;
   height: 40px;
@@ -487,9 +487,9 @@ img {
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
-  color: #fff;
-  padding: 8px 0 8px 16px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  color: #ffffff;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .subscribe-button {
   display: flex;
@@ -500,7 +500,7 @@ img {
   background-color: #4d5ae5;
   border-radius: 4px;
   padding: 8px 24px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   border: transparent;
   font-family: 'Roboto', sans-serif;
